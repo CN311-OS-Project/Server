@@ -8,6 +8,7 @@ public class server_frame extends javax.swing.JFrame
 {
    ArrayList clientOutputStreams;
    ArrayList<String> users;
+   String[] wordList = {"Mansea"};
 
    public class ClientHandler implements Runnable	
    {
@@ -30,6 +31,8 @@ public class server_frame extends javax.swing.JFrame
             }
 
        }
+       
+       
 
        @Override
        public void run() 
